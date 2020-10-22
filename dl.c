@@ -8,8 +8,8 @@
 #define MAX 1000
 
 int main(int argc, char *argv[]){
-    char TRASH_DIR[MAX], HOME_DIR[MAX], FULLPATH[MAX], TRASH_FILE[MAX], TRASH_INFO[MAX], CUR_TIME[50], ERR_MSG[50];
-    char *tdir = TRASH_DIR, *hdir = HOME_DIR, *abspath = FULLPATH, *tfile = TRASH_FILE, *tinfo = TRASH_INFO, *errbuf = ERR_MSG;
+    char TRASH_DIR[MAX], HOME_DIR[MAX], FULLPATH[MAX], TRASH_FILE[MAX], TRASH_INFO[MAX], CUR_TIME[50];
+    char *tdir = TRASH_DIR, *hdir = HOME_DIR, *abspath = FULLPATH, *tfile = TRASH_FILE, *tinfo = TRASH_INFO;
     int i, ret;
     FILE *fp;
     time_t rawtime;
