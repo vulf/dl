@@ -20,7 +20,8 @@ int main(int argc, char *argv[]){
     strcat(tdir, "/Trash");
     
     if(argc<2){
-        fprintf(stderr, "error: missing operand\n");
+        fprintf(stderr, "error: missing operand\n"
+                        "Usage: dl <path> [..]\n");
         return 1;
     }
     for(i=1;i<argc;i++){
