@@ -4,6 +4,6 @@ install: dl.c
 	gcc -o dl dl.c
 	mv dl /usr/bin/
 clean:
-	rm dl
+	/usr/bin/rm dl
 uninstall:
-	rm /usr/bin/dl
+	/usr/bin/rm /usr/bin/dl
