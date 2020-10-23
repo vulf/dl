@@ -5,7 +5,7 @@ Written in C.
 Works only on __Linux__.
 
 ## What it does
-Safely delete files and directories by moving them to the Trash directory(`$XDG_DATA_HOME/Trash` or `$HOME/.local/share/Trash`).  
+Safely delete files and directories by moving them to the Trash directory (`$XDG_DATA_HOME/Trash` or `$HOME/.local/share/Trash`).  
 
 ## Install
 ```
@@ -23,7 +23,7 @@ Examples:
 ```
 
 ## Tip
-Alias `rm` to `dl` in your SHELL configuration file (`.bashrc`,`.zshrc`). 
+Alias `rm` to `dl` in your SHELL configuration file (`.bashrc` , `.zshrc`). 
 ```
 alias rm='dl'
 ```
