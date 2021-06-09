@@ -30,6 +30,8 @@ alias rm='dl'
 
 ## TODO
 - [ ] add support for symbolic files and /tmp
+- [ ] create $XDG_DATA_HOME/Trash and subdirs if it does not exist
+- [ ] remove duplicates in Trash by renaming identical files
 
 ## Prior art
 * https://github.com/sindresorhus/trash-cli
