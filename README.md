@@ -28,5 +28,8 @@ Alias `rm` to `dl` in your SHELL configuration file (`.bashrc` , `.zshrc`).
 alias rm='dl'
 ```
 
+## TODO
+- [ ] add support for symbolic files and /tmp
+
 ## Prior art
 * https://github.com/sindresorhus/trash-cli
