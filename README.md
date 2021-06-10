@@ -32,6 +32,7 @@ alias rm='dl'
 - [ ] add support for symbolic files and /tmp
 - [ ] create $XDG_DATA_HOME/Trash and subdirs if it does not exist
 - [ ] remove duplicates in Trash by renaming identical files
+    * related issue: deleting a directory with the same name as that of a dir in Trash throws errors
 
 ## Prior art
 * https://github.com/sindresorhus/trash-cli
